@@ -55,44 +55,6 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
 
 ---
 
-## 📦 Como Subir para o GitHub
-
-Para subir este projeto para o seu próprio repositório no GitHub, siga as instruções abaixo:
-
-1. **Inicialize o repositório Git local** (caso ainda não esteja inicializado):
-   ```bash
-   git init
-   ```
-
-2. **Adicione os arquivos ao Git** (o arquivo `.gitignore` já está configurado para não subir a pasta `node_modules`):
-   ```bash
-   git add .
-   ```
-
-3. **Crie o primeiro commit:**
-   ```bash
-   git commit -m "feat: setup inicial do laboratorio de react hooks"
-   ```
-
-4. **Crie um novo repositório vazio no GitHub** (não adicione README, .gitignore ou Licença lá).
-
-5. **Associe o repositório local ao repositório remoto no GitHub:**
-   *(Substitua `SEU_USUARIO` e `NOME_DO_REPOSITORIO` pelos seus dados reais)*
-   ```bash
-   git remote add origin https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
-   ```
-
-6. **Defina a branch principal como `main`:**
-   ```bash
-   git branch -M main
-   ```
-
-7. **Envie os arquivos para o GitHub:**
-   ```bash
-   git push -u origin main
-   ```
-
----
 
 ## 📝 Tecnologias Utilizadas
 
